@@ -1,0 +1,46 @@
+#The idea for this came from Kaiserredux, probably will rename them to be more clear.
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_flagicon_GER_fascism"
+		texturefile = "gfx/flags/small/GER_fascism.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_flagicon_GER_fascism_censored"
+		texturefile = "gfx/flags/small/GER_censored_fascism.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_flagicon_GER_fascism_imperial"
+		texturefile = "gfx/flags/small/GER_imperial_fascism.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_flagicon_JAP_fascism"
+		texturefile = "gfx/flags/small/JAP_democratic.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_flagicon_JAP_army"
+		texturefile = "gfx/flags/small/JAP_fascism.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_flagicon_RSI_fascism"
+		texturefile = "gfx/flags/small/ITA_rsi_democratic.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_flagicon_RSI_army"
+		texturefile = "gfx/flags/small/ITA_rsi_fascism.tga"
+		legacy_lazy_load = no
+	}
+}

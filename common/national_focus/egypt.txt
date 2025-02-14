@@ -1,0 +1,13 @@
+﻿focus_tree = {
+	id = egyptian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = EGY
+		}
+	}
+	default = no
+}

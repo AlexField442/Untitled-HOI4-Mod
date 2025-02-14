@@ -1,0 +1,16 @@
+﻿l_english:
+ FE_CUSTOM_DIFFICULTY_TOOLTIP:0 "Applied to: $COUNTRIES$\n$MODIFIER$"
+ CUSTOM_DIFFICULTY_GROUP_NAME:0 "Major Nation Buffs"
+
+ diff_strong_ai_generic:0 "Stronger AI"
+ custom_diff_strong_ger:0 "@GER Strengthen Germany"
+ custom_diff_strong_ita:0 "@ITA Strengthen Italy"
+ custom_diff_strong_sov:0 "@SOV Strengthen the Soviet Union"
+ custom_diff_strong_fra:0 "@FRA Strengthen France"
+ custom_diff_strong_eng:0 "@ENG Strengthen the United Kingdom"
+ custom_diff_strong_usa:0 "@USA Strengthen the United States"
+ custom_diff_strong_jap:0 "@JAP Strengthen Japan"
+ custom_diff_strong_man:0 "@MAN Strengthen Manchukuo"
+ custom_diff_strong_men:0 "@MEN Strengthen Mengkukuo"
+ custom_diff_strong_chi:0 "@CHI Strengthen China (R.O.C.)"
+ custom_diff_strong_prc:0 "@PRC Strengthen China (P.R.C.)"

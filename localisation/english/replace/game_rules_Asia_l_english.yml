@@ -1,0 +1,48 @@
+﻿l_english:
+ RULE_GROUP_AI_ASIA_BEHAVIOR:0 "AI Behavior - Asia-Oceania"
+
+ #AUSTRALIA
+ AST_AI_BEHAVIOR:0 "@AST Australia"
+ RULE_OPTION_COMMUNIST_AST_AI_DESC: "The Australian AI will attempt to turn the country communist and ally with the Comintern by going down the relevant path in the national focus tree."
+ RULE_OPTION_DEMOCRATIC_HISTORICAL_AST_AI_DESC: "The Australian AI will attempt to follow the historical chain of events and decisions in the national focus tree."
+ RULE_DEMOCRATIC_ALTERNATE_AST_AI_DESC: "The Australian AI will attempt to gain full independence from the United Kingdom and become a major force in their region, by going down the relevant paths of the national focus tree."
+ RULE_FASCIST_AST_AI_DESC: "The Australian AI will attempt to turn fascist and ally with Japan by going down the relevant path of the national focus tree."
+
+ #CHINA, REPUBLIC OF
+ CHI_AI_BEHAVIOR:0 "@CHI China (R.O.C.)"
+ RULE_OPTION_HISTORICAL_CHI_AI: "Historical"
+ RULE_OPTION_HISTORICAL_CHI_AI_DESC: "The Chinese AI will attempt to follow the historical chain of events as much as possible."
+ RULE_OPTION_ALTERNATE_CHI_AI: "Consolidate Power"
+ RULE_OPTION_ALTERNATE_CHI_AI_DESC: "The Chinese AI will attempt to consolidate power in China by taking over the warlords before picking a fight with the Japanese through the relevant branches of the national focus tree."
+
+ #CHINA, PEOPLE'S REPUBLIC OF
+ PRC_AI_BEHAVIOR:0 "@PRC China (P.R.C.)"
+ RULE_OPTION_HISTORICAL_PRC_AI: "Historical"
+ RULE_OPTION_HISTORICAL_PRC_AI_DESC: "The Communist Chinese AI will attempt to follow the historical chain of events as much as possible."
+ RULE_OPTION_ALTERNATE_PRC_AI: "Coalition Government"
+ RULE_OPTION_ALTERNATE_PRC_AI_DESC: "The Communist Chinese AI will try to create a coalition government with the Nationalists by going down the relevant path of the focus tree."
+
+ #INDIA
+ RAJ_AI_BEHAVIOR:0 "@RAJ India"
+ RULE_OPTION_COMMUNIST_RAJ_AI_DESC: "The Indian AI will attempt to gain its independence by allying with the Soviet Union, by going down the relevant path in the national focus tree."
+ RULE_OPTION_DEMOCRATIC_HISTORICAL_RAJ_AI_DESC: "The Indian AI will remain loyal to Britain and attempt to follow the historical chain of events."
+ RULE_FASCIST_RAJ_AI_DESC: "The Indian AI will attempt to gain its independence through an alliance with fascist countries by going down the relevant path in the national focus tree."
+
+ #JAPAN
+ JAP_AI_BEHAVIOR:0 "@JAP Japan"
+ RULE_FASCIST_JAP_AI_DESC: "The Japanese AI will attempt to strike south against the western allies by going down the relevant path in the national focus tree."
+ RULE_OPTION_COMMUNIST_JAP_AI_DESC: "The Japanese AI will attempt to turn communist and support other communist regimes in Asia by going down the relevant path in the national focus tree."
+ RULE_OPTION_NEUTRALITY_JAP_AI_DESC: "The Japanese AI will attempt to strike north against the Soviet Union and make common cause with the Axis by going down the relevant path in the national focus tree."
+ RULE_DEMOCRATIC_JAP_AI_DESC: "The Japanese AI will attempt to reform into a democracy by going down the relevant path in the focus tree."
+
+ #MANCHURIA
+ MAN_AI_BEHAVIOR:0 "@MAN Manchukuo"
+ RULE_OPTION_OBEDIENCE_MAN_AI_DESC: "The Manchu AI will attempt to remain loyal as much as possible and follow the relevant branch in the national focus tree."
+ RULE_OPTION_INDEPENDENCE_MAN_AI_DESC: "The Manchu AI will attempt to break free and take over all of China by going down the relevant bracnh of the national focus tree."
+ 
+ #NEW ZEALAND
+ NZL_AI_BEHAVIOR:0 "@NZL New Zealand"
+ RULE_OPTION_COMMUNIST_NZL_AI_DESC: "The AI will attempt to turn communist and join the Comintern by going down the relevant path in the national focus tree."
+ RULE_OPTION_DEMOCRATIC_HISTORICAL_NZL_AI_DESC: "The AI will attempt to follow the historical chain of events as much as possible."
+ RULE_DEMOCRATIC_ALTERNATE_NZL_AI_DESC: "The AI will attempt to remain democratic and establish full sovereignity by going down the relevant path in the national focus tree."
+ RULE_FASCIST_NZL_AI_DESC: "The AI will attempt to turn fascist and ally with Japan by going down the relevant path in the national focus tree."

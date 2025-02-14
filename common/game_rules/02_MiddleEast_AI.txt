@@ -1,0 +1,170 @@
+EGY_AI_behavior = {
+	name = "EGY_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_MIDDLE_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_EGY_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MONARCHIST
+		text = "RULE_OPTION_ABSOLUTIST_EGY_AI"
+		desc = "RULE_OPTION_ABSOLUTIST_EGY_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC_EGY_AI"
+		desc = "RULE_OPTION_DEMOCRATIC_EGY_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = REPUBLIC
+		text = "RULE_OPTION_REPUBLIC_EGY_AI"
+		desc = "RULE_OPTION_REPUBLIC_EGY_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = NASSERIST
+		text = "RULE_OPTION_NASSERIST_EGY_AI"
+		desc = "RULE_OPTION_NASSERIST_EGY_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST_EGY_AI"
+		desc = "RULE_OPTION_FASCIST_EGY_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = FASCIST_ALT
+		text = "RULE_OPTION_FASCIST_AXIS_EGY_AI"
+		desc = "RULE_OPTION_FASCIST_AXIS_EGY_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+SYR_AI_behavior = {
+	name = "SYR_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_MIDDLE_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_SYR_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC_SYR_AI"
+		desc = "RULE_OPTION_DEMOCRATIC_SYR_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = MONARCHIST
+		text = "RULE_OPTION_MONARCHIST_SYR_AI"
+		desc = "RULE_OPTION_MONARCHIST_SYR_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST_SYR_AI"
+		desc = "RULE_OPTION_COMMUNIST_SYR_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST_SYR_AI"
+		desc = "RULE_OPTION_FASCIST_SYR_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+TUR_AI_behavior = {
+	name = "TUR_AI_BEHAVIOR"
+	required_dlc = "Battle for the Bosporus"
+	group = "RULE_GROUP_AI_MIDDLE_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_TUR_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ALTERNATE_KEMALIST
+		text = "RULE_OPTION_ALTERNATE_KEMALIST_AI"
+		desc = "RULE_OPTION_ALTERNATE_KEMALIST_AI_DESC"
+	}
+	option = {
+		name = TUR_DEMOCRATIC_KEMALIST
+		text = "RULE_OPTION_TUR_DEMOCRATIC_KEMALIST"
+		desc = "RULE_OPTION_TUR_DEMOCRATIC_KEMALIST_DESC"
+	}
+	option = {
+		name = TUR_DEMOCRATIC_ALTERNATE
+		text = "RULE_OPTION_TUR_DEMOCRATIC_ALTERNATE"
+		desc = "RULE_OPTION_TUR_DEMOCRATIC_ALTERNATE_DESC"
+	}
+	option = {
+		name = FASCISM_TUR_AI
+		text = "RULE_OPTION_FASCISM_TUR_AI"
+		desc = "RULE_OPTION_FASCISM_TUR_AI_DESC"
+	}
+	option = {
+		name = TUR_FASCISM_ALTERNATE
+		text = "RULE_OPTION_TUR_FASCISM_ALTERNATE"
+		desc = "RULE_OPTION_TUR_FASCISM_ALTERNATE_DESC"
+	}
+	option = {
+		name = COMMUNIST_TUR_AI
+		text = "RULE_OPTION_COMMUNIST_TUR_AI"
+		desc = "RULE_OPTION_COMMUNIST_TUR_AI_DESC"
+	}
+	option = {
+		name = TUR_COMMUNISM_ALTERNATE
+		text = "RULE_OPTION_ALTERNATE_COMMUNIST_TUR_AI"
+		desc = "RULE_OPTION_ALTERNATE_COMMUNIST_TUR_AI_DESC"
+	}
+	option = {
+		name = BALKAN_ENTENTE
+		text = "RULE_OPTION_BALKAN_ENTENTE"
+		desc = "RULE_OPTION_BALKAN_ENTENTE_DESC"
+	}
+	option = {
+		name = OTTOMAN
+		text = "RULE_OPTION_OTTOMAN"
+		desc = "RULE_OPTION_OTTOMAN_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}

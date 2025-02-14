@@ -1,0 +1,56 @@
+nazi_flag = {
+	name = "RULE_NAZI_FLAG"
+	group = "RULE_GROUP_OTHER"
+	##icon = "GFX_release_nations"
+	default = {
+		name = "UNCENSORED"
+		text = RULE_NAZI_FLAG_UNCENSORED
+		desc = "RULE_NAZI_FLAG_UNCENSORED_DESC"
+	}
+	option = {
+		name = "CENSORED"
+		text = RULE_NAZI_FLAG_CENSORED
+		desc = "RULE_NAZI_FLAG_CENSORED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "IMPERIAL"
+		text = RULE_NAZI_FLAG_IMPERIAL
+		desc = "RULE_NAZI_FLAG_IMPERIAL_DESC"
+		allow_achievements = yes
+	}
+}
+
+imjap_flag = {
+	name = "RULE_IMJAP_FLAG"
+	group = "RULE_GROUP_OTHER"
+	##icon = "GFX_release_nations"
+	default = {
+		name = "HISTORICAL"
+		text = RULE_IMJAP_FLAG_HISTORICAL
+		desc = "RULE_IMJAP_FLAG_HISTORICAL_DESC"
+	}
+	option = {
+		name = "WAR"
+		text = RULE_IMJAP_FLAG_WAR
+		desc = "RULE_IMJAP_FLAG_WAR_DESC"
+		allow_achievements = yes
+	}
+}
+
+socita_flag = {
+	name = "RULE_SOCITA_FLAG"
+	group = "RULE_GROUP_OTHER"
+	##icon = "GFX_release_nations"
+	default = {
+		name = "HISTORICAL"
+		text = RULE_SOCITA_FLAG_HISTORICAL
+		desc = "RULE_SOCITA_FLAG_HISTORICAL_DESC"
+	}
+	option = {
+		name = "WAR"
+		text = RULE_SOCITA_FLAG_WAR
+		desc = "RULE_SOCITA_FLAG_WAR_DESC"
+		allow_achievements = yes
+	}
+}
