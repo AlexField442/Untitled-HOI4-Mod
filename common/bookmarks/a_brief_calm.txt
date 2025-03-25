@@ -1,0 +1,64 @@
+bookmarks = {
+	bookmark = {
+		name = "A_BRIEF_CALM_NAME"
+		desc = "A_BRIEF_CALM_DESC"
+		date = 1945.10.31.12
+		picture = "GFX_select_date_1945"
+		default_country = "USA"
+		default = yes
+		
+		"USA"={
+			history = "USA_A_BRIEF_CALM_DESC"
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+		"SOV"={
+			history = "SOV_A_BRIEF_CALM_DESC"
+			ideology = communism
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_the_supreme_soviet
+				SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+
+		"---"={
+			history = "OTHER_A_BRIEF_CALM_DESC"
+		}
+
+
+		# minors from DLC ####
+		##"EGY"={
+		##	minor = yes
+		##	history = "EGY_A_BRIEF_CALM_DESC"
+		##	ideology = NEUTRALITY
+		##	ideas = {
+		##	##	CAN_great_depression_1
+		##	##	CAN_conscription_crisis
+		##	}
+		##	focuses = {
+		##	##	CAN_skewer_the_eagle
+		##	##	CAN_north_american_alliance
+		##	##	CAN_join_comintern
+		##	}
+		##}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

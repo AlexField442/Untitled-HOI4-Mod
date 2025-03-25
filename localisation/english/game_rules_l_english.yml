@@ -158,7 +158,6 @@
  LAT_AI_BEHAVIOR:0 "@LAT Latvia"
  GRE_AI_BEHAVIOR:0 "@GRE Greece"
  TUR_AI_BEHAVIOR:0 "@TUR Turkey"
- SWI_AI_BEHAVIOR:0 "@SWI Switzerland"
  SWE_AI_BEHAVIOR:0 "@SWE Sweden"
  FIN_AI_BEHAVIOR: "@FIN Finland"
  DEN_AI_BEHAVIOR: "@DEN Denmark"
@@ -563,16 +562,7 @@ RULE_OPTION_HISTORICAL_SOV_AI_DESC:0 "The Soviet AI will attempt to follow the h
  RULE_FASCIST_LIT_AI_DESC:0 "The Lithuanian AI will attempt to establish a fascist government by going down the relevant path in the national focus tree."
  RULE_FASCIST_LAT_AI_DESC:0 "The Latvian AI will attempt to establish a fascist government by going down the relevant path in the national focus tree."
  RULE_COMMUNIST_BALTIC_AI_DESC:0 "The AI will attempt to establish a communist regime by going down the relevant path in the national focus tree."
- RULE_HISTORICAL_SWI_AI_DESC:0 "Switzerland will remain neutral, while building up their militias and fortifications in preparation for any attack. They will give some support to the allies towards the end of the war."
- RULE_OPTION_SWI_ALLIED_DEMOCRATIC:0 "Allied Democratic"
- RULE_OPTION_SWI_ALLIED_DEMOCRATIC_AI_DESC:0 "The AI will arm Switzerland and prepare for war, aligning Switzerland to the democratic powers of the world, eventually breaking neutrality in favor of the Allies"
- RULE_OPTION_SWI_EXPANSIONIST_DEMOCRATIC:0 "Expansionist Democracy"
- RULE_OPTION_SWI_EXPANSIONIST_DEMOCRATIC_AI_DESC:0 "The AI will will try to convince states around Switzerland to join the confederation, and will arm the country in preparation for owner of those states refusing to let their states be free."
- RULE_OPTION_SWI_IMPERIAL:0 "Imperial"
- RULE_OPTION_SWI_IMPERIAL_AI_DESC:1 "The AI will attempt to form the Alpine Protectorate by abandoning neutrality and democracy in favor of a militaristic and expansionist regime."
- RULE_OPTION_SWI_FASCIST:1 "Fascist"
- RULE_OPTION_SWI_FASCIST_AI_DESC:1 "The AI will make Switzerland align itself with Germany and slowly turn the country fascist, eventually either allying with the Axis or becoming a German Puppet."
- 
+
  RULE_GROUP_GENERAL_UI:0 "UI"
  OBSOLETE_FOCUS_BRANCHES_VISIBILITY:0 "Show obsolete branches in Focus Tree"
  RULE_OPTION_HIDE:0 "Hide"
@@ -716,41 +706,6 @@ RULE_OPTION_HISTORICAL_SOV_AI_DESC:0 "The Soviet AI will attempt to follow the h
 
  RULE_ALLOW_RELEASE_NATIONS_NO_SLOVAKIA_TOOLTIP: "§Y[HUN.GetName]§! and §Y[CZE.GetName]§! may only release this country via events or focuses."
 
- AUS_AI_BEHAVIOR: "@AUS Austria"
- RULE_OPTION_HISTORICAL_AUS_AI_DESC: "The AI will turn fascist and attempt to stave off the Anschluss with the Vaterländische Front at the helm."
- RULE_OPTION_MONARCHIST_PUPPET_AUS_AI: "Monarchist - Subjugation"
- RULE_OPTION_MONARCHIST_PUPPET_AUS_AI_DESC: "The AI will attempt to reform the Austro-Hungarian Empire by rebuilding their military and demanding subjugation of the countries that now occupy their old lands."
- RULE_OPTION_MONARCHIST_ANNEX_AUS_AI: "Monarchist - Annexation"
- RULE_OPTION_MONARCHIST_ANNEX_AUS_AI_DESC: "The AI will attempt to reform the Austrian Empire by rebuilding their military and then expanding and annexing their old lost territories."
- RULE_OPTION_AUS_NEUTRALITY_FEDERATIVE_AI: "Non-Aligned Federative"
- RULE_OPTION_AUS_NEUTRALITY_FEDERATIVE_AI_DESC: "The AI will attempt to form the Danubian Federation by inviting other nations along the Danube under a non-aligned rule."
- RULE_OPTION_AUS_COMMUNIST_SOV_ALIGNED_AI: "Soviet Austrian"
- RULE_OPTION_AUS_COMMUNIST_SOV_ALIGNED_AI_DESC: "The AI will attempt to go communist and overthrow the government before aligning with the USSR and joining the Comintern"
- RULE_OPTION_AUS_COMMUNIST_AI: "Communist"
- RULE_OPTION_AUS_COMMUNIST_AI_DESC: "The AI will attempt to go communist and overthrow the government. Adhering to a strict Austromarxist agenda they will create a faction of their own"
- RULE_OPTION_AUS_DEMOCRATIC_FEDERATIVE_AI: "Austrian Democratic - Federative"
- RULE_OPTION_AUS_DEMOCRATIC_FEDERATIVE_AI_DESC: "The AI will attempt to form the Danubian Federation by inviting other nations along the Danube under a democratic rule."
- RULE_OPTION_AUS_DEMOCRATIC_ALLIES_AI: "Austrian Democratic - Allies"
- RULE_OPTION_AUS_DEMOCRATIC_ALLIES_AI_DESC: "The AI will attempt to join the Allies by re-establishing democracy in Austria."
- RULE_OPTION_AUS_DEMOCRATIC_ALPINE_FEDERATION_AI: "Austrian Democratic - Alpine Federation"
- RULE_OPTION_AUS_DEMOCRATIC_ALPINE_FEDERATION_AI_DESC: "The AI will attempt to re-establish democracy in Austria and form the Alpine Federation."
- RULE_OPTION_AUS_ANTI_ANSCLUSS_STRESS_AI: "Variant Historical - Östfrei!"
- RULE_OPTION_AUS_ANTI_ANSCLUSS_STRESS_AI_DESC: "The AI will largely follow the Historical path, but will attempt to stave of Anschluss by any means possible, fighting tooth and claw for their independence until the bitter end. This might present a challenge or delay to the outbreak of the war"
-
-
- BEL_AI_BEHAVIOR: "@BEL Belgium"
- RULE_OPTION_HISTORICAL_BEL_AI: "Historical"
- RULE_OPTION_HISTORICAL_BEL_AI_DESC: "Belgium will initially try to stave off attacks, but will then fall back to the Congo and continue the war from there."
- RULE_OPTION_NATIONALIST_FASCIST_BEL_AI: "Nationalist Fascists (Rexist)"
- RULE_OPTION_NATIONALIST_FASCIST_BEL_AI_DESC: "The AI will go with the Rexist Fascists, and establish a tall highly industrial state, then assist the fascists in the war."
- RULE_OPTION_EXPANSIONIST_FASCIST_BEL_AI: "Expansionist Fascists (VNV)"
- RULE_OPTION_EXPANSIONIST_FASCIST_BEL_AI_DESC: "The AI will go with the Flemish Nationalist Fascists, and aggressively try to unite the low countries then turn on France."
- RULE_OPTION_DEFENSIVE_DEMOCRAT_BEL_AI: "Defensive Democrats"
- RULE_OPTION_DEFENSIVE_DEMOCRAT_BEL_AI_DESC: "The AI will throw off the shackles of their weak-willed king, and attempt to defend Belgium at all costs."
- RULE_OPTION_COMMUNIST_BEL_AI: "Socialists"
- RULE_OPTION_COMMUNIST_BEL_AI_DESC: "The AI will allow the Labour party to win the election, and then slowly begin to align themselves with the Communist bloc."
-
-
 #OTHER OPTIONS
  RULE_GROUP_OTHER: "Other"
  RULE_NAZI_FLAG: "£GFX_flagicon_GER_fascism   Flag of the German Reich"
@@ -770,3 +725,5 @@ RULE_OPTION_HISTORICAL_SOV_AI_DESC:0 "The Soviet AI will attempt to follow the h
  RULE_SOCITA_FLAG_HISTORICAL_DESC: "When the Italian Social Republic appears, it will use the national flag."
  RULE_SOCITA_FLAG_WAR: "£GFX_flagicon_RSI_army   National Republican Army"
  RULE_SOCITA_FLAG_WAR_DESC: "When the Italian Social Republic appears, it will use the National Republican Army flag commonly associated with the regime."
+ 
+ RULE_ALLOW_RELEASE_NATIONS_NOT_RAJ_TOOLTIP: "§Y[RAJ.GetName]§! may only release this country by completing §Y$RAJ_a_secular_state$§!, §Y$RAJ_incorporation_of_the_east_india_company$§!, §Y$RAJ_hindutva$§!, §Y$RAJ_netaji$§! or by completing §YPartition§!"

@@ -9,7 +9,7 @@ AUS_AI_BEHAVIOR = {
 	}
 	option = {
 		name = HISTORICAL
-		text = "RULE_OPTION_HISTORICAL"
+		text = "RULE_OPTION_HISTORICAL_AUS_AI"
 		desc = "RULE_OPTION_HISTORICAL_AUS_AI_DESC"
 		allow_achievements = yes
 	}
@@ -75,6 +75,7 @@ AUS_AI_BEHAVIOR = {
 		allow_achievements = no
 	}
 }
+
 BEL_AI_BEHAVIOR = {
 	name = "BEL_AI_BEHAVIOR"
 	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
@@ -86,7 +87,7 @@ BEL_AI_BEHAVIOR = {
 	}
 	option = {
 		name = HISTORICAL
-		text = "RULE_OPTION_HISTORICAL"
+		text = "RULE_OPTION_HISTORICAL_BEL_AI"
 		desc = "RULE_OPTION_HISTORICAL_BEL_AI_DESC"
 		allow_achievements = yes
 	}
@@ -121,6 +122,7 @@ BEL_AI_BEHAVIOR = {
 		allow_achievements = no
 	}
 }
+
 BUL_ai_behavior = {
 	name = "BUL_AI_BEHAVIOR"
 	required_dlc = "Battle for the Bosporus"
@@ -172,6 +174,7 @@ BUL_ai_behavior = {
 		desc = "RULE_OPTION_RANDOM_AI_DESC"
 	}
 }
+
 CZE_ai_behavior = {
 	name = "CZE_AI_BEHAVIOR"
 	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
@@ -213,6 +216,7 @@ CZE_ai_behavior = {
 		desc = "RULE_OPTION_RANDOM_AI_DESC"
 	}
 }
+
 DEN_ai_behavior = {
 	name = "DEN_AI_BEHAVIOR"
 	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
@@ -249,6 +253,7 @@ DEN_ai_behavior = {
 		desc = "RULE_OPTION_RANDOM_AI_DESC"
 	} 
 }
+
 EST_ai_behavior = {
 	name = "EST_AI_BEHAVIOR"
 	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
@@ -1170,6 +1175,7 @@ SWE_ai_behavior = {
 		allow_achievements = no
 	} 
 }
+
 SWI_ai_behavior = {
 	name = "SWI_AI_BEHAVIOR"
 	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
@@ -1181,32 +1187,32 @@ SWI_ai_behavior = {
 	}
 	option = {
 		name = HISTORICAL
-		text = "RULE_OPTION_HISTORICAL"
-		desc = "RULE_HISTORICAL_SWI_AI_DESC"
+		text = "RULE_OPTION_HISTORICAL_SWI_AI"
+		desc = "RULE_OPTION_HISTORICAL_SWI_AI_DESC"
 		allow_achievements = yes
 	}
 	option = {
 		name = SWI_ALLIED_DEMOCRATIC
-		text = "RULE_OPTION_SWI_ALLIED_DEMOCRATIC"
-		desc = "RULE_OPTION_SWI_ALLIED_DEMOCRATIC_AI_DESC"
+		text = "RULE_OPTION_ALLIED_DEMOCRATIC_SWI_AI"
+		desc = "RULE_OPTION_ALLIED_DEMOCRATIC_SWI_AI_DESC"
 		allow_achievements = no
 	}
 	option = {
 		name = SWI_EXPANSIONIST_DEMOCRATIC
-		text = "RULE_OPTION_SWI_EXPANSIONIST_DEMOCRATIC"
-		desc = "RULE_OPTION_SWI_EXPANSIONIST_DEMOCRATIC_AI_DESC"
+		text = "RULE_OPTION_EXPANSIONIST_DEMOCRATIC_SWI_AI"
+		desc = "RULE_OPTION_EXPANSIONIST_DEMOCRATIC_SWI_AI_DESC"
 		allow_achievements = no
 	}
 	option = {
 		name = SWI_IMPERIAL
-		text = "RULE_OPTION_SWI_IMPERIAL"
-		desc = "RULE_OPTION_SWI_IMPERIAL_AI_DESC"
+		text = "RULE_OPTION_IMPERIAL_SWI_AI"
+		desc = "RULE_OPTION_IMPERIAL_SWI_AI_DESC"
 		allow_achievements = no
 	}
 	option = {
 		name = SWI_FASCIST
-		text = "RULE_OPTION_SWI_FASCIST"
-		desc = "RULE_OPTION_SWI_FASCIST_AI_DESC"
+		text = "RULE_OPTION_FASCIST_SWI_AI"
+		desc = "RULE_OPTION_FASCIST_SWI_AI_DESC"
 		allow_achievements = no
 	}
 	option = {
@@ -1216,6 +1222,7 @@ SWI_ai_behavior = {
 		allow_achievements = no
 	} 
 }
+
 ENG_ai_behavior = {
 	name = "ENG_AI_BEHAVIOR"
 	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
@@ -1259,6 +1266,52 @@ ENG_ai_behavior = {
 		text = "RULE_OPTION_RANDOM"
 		desc = "RULE_OPTION_RANDOM_AI_DESC"
 		required_dlc = "Man the Guns"
+	}
+}
+UKR_ai_behavior = {
+	name = "UKR_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_EUROPE_BEHAVIOR"
+	required_dlc = "Death or Dishonor"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL_UKR_AI"
+		desc = "RULE_OPTION_HISTORICAL_UKR_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC_ALLIES
+		text = "RULE_OPTION_DEMOCRATIC_ALLIES_UKR_AI"
+		desc = "RULE_OPTION_DEMOCRATIC_ALLIES_UKR_AI_DESC"
+	}
+	option = {
+		name = DEMOCRATIC_INTERM
+		text = "RULE_OPTION_DEMOCRATIC_INTERM_UKR_AI"
+		desc = "RULE_OPTION_DEMOCRATIC_INTERM_UKR_AI_DESC"
+	}
+	option = {
+		name = MONARCHIST
+		text = "RULE_OPTION_MONARCHIST_UKR_AI"
+		desc = "RULE_OPTION_MONARCHIST_UKR_AI_DESC"
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST_UKR_AI"
+		desc = "RULE_OPTION_FASCIST_UKR_AI_DESC"
+	}
+	option = {
+		name = ANARCHIST
+		text = "RULE_OPTION_ANARCHIST_UKR_AI"
+		desc = "RULE_OPTION_ANARCHIST_UKR_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
 	}
 }
 YUG_ai_behavior = {

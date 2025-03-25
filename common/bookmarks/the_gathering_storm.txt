@@ -195,60 +195,18 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"EGY"={
+		"UKR"={
 			minor = yes
-			history = "EGY_GATHERING_STORM_DESC"
-			ideology = NEUTRALITY
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
-			##	CAN_great_depression_1
-			##	CAN_conscription_crisis
+				CAN_great_depression_1
+				CAN_conscription_crisis
 			}
 			focuses = {
-			##	CAN_skewer_the_eagle
-			##	CAN_north_american_alliance
-			##	CAN_join_comintern
-			}
-		}
-		"MAL"={
-			minor = yes
-			history = "MAL_GATHERING_STORM_DESC"
-			ideology = DEMOCRATIC
-			ideas = {
-			##	CAN_great_depression_1
-			##	CAN_conscription_crisis
-			}
-			focuses = {
-			##	CAN_skewer_the_eagle
-			##	CAN_north_american_alliance
-			##	CAN_join_comintern
-			}
-		}
-		"ZIM"={
-			minor = yes
-			history = "ZIM_GATHERING_STORM_DESC"
-			ideology = NEUTRALITY
-			ideas = {
-			##	CAN_great_depression_1
-			##	CAN_conscription_crisis
-			}
-			focuses = {
-			##	CAN_skewer_the_eagle
-			##	CAN_north_american_alliance
-			##	CAN_join_comintern
-			}
-		}
-		"SYR"={
-			minor = yes
-			history = "SYR_GATHERING_STORM_DESC"
-			ideology = NEUTRALITY
-			ideas = {
-			##	CAN_great_depression_1
-			##	CAN_conscription_crisis
-			}
-			focuses = {
-			##	CAN_skewer_the_eagle
-			##	CAN_north_american_alliance
-			##	CAN_join_comintern
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
 			}
 		}
 		effect = {

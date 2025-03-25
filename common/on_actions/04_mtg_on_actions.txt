@@ -2945,29 +2945,6 @@ on_actions = {
 		##			transfer_state = 982
 		##		}
 		##	}
-			# Game Rules - Flags
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = nazi_flag
-						option = CENSORED
-					}
-				}
-				GER = {
-					set_cosmetic_tag = GER_censored
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = nazi_flag
-						option = IMPERIAL
-					}
-				}
-				GER = {
-					set_cosmetic_tag = GER_imperial
-				}
-			}
 		}
 	}
 

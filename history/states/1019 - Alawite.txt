@@ -1,0 +1,22 @@
+state = {
+	id = 1019
+	name = "STATE_1019"
+	manpower = 224000
+	state_category = wasteland
+
+	history = {
+		owner = SYR
+		add_core_of = SYR
+
+		victory_points = {
+			1088 2
+		}
+	}
+
+	provinces = {
+		1088 10087
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 2.0
+}

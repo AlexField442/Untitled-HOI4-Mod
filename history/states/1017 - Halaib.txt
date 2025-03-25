@@ -1,0 +1,22 @@
+state = {
+	id = 1017
+	name = "STATE_1017"
+	manpower = 10000
+	state_category = rural
+
+	history = {
+		owner = ENG
+		add_core_of = EGY
+		add_core_of = SUD
+		victory_points = {
+			13376 3
+		}
+	}
+
+	provinces = {
+		13376 13378
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

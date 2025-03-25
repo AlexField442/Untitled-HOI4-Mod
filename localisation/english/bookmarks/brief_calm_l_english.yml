@@ -1,0 +1,10 @@
+﻿l_english:
+ A_BRIEF_CALM_NAME:0 "A Brief Calm"
+ A_BRIEF_CALM_DESC:0 "The war has been won. The Germans and Japanese defeated, nearly all their allies betraying them, but now as the world settles, a new reality is upon it. One marked by a division between the Capitalists and Communists. Will the peace hold?"
+ 
+#COUNTRY DESCRIPTIONS
+ SOV_A_BRIEF_CALM_DESC:0 "Supporting Manuel Azaña and the 'Second Spanish Republic' during the Spanish Civil War has clearly shown where the Soviet Union stands in relation to Italy and Germany. Victorious over the Japanese army in several recent border conflicts, the Soviet Union currently seems a power too major for any single country to oppose. \n\nThe promise made by Germany to partition the Baltic States and Poland is welcome at this time."
+ USA_A_BRIEF_CALM_DESC:0 "The rising tension in Europe is worrying. Although not yet a real concern for the United States, the aggression shown by Germany could soon be heard all over the world. While things are quite peaceful in the west, military preparations may not be a bad idea, all things considered. \n\nShould the United States get drawn into another war, they will be the ones to end it."
+ OTHER_A_BRIEF_CALM_DESC:0 "The nations of the world, great and small, are not all content to hold their breath awaiting the outbreak of another global conflict. From major powers on the brink of civil war to the many nations formed and transformed by the Great War, all will have to make difficult decisions and balance ideals with pragmatism to have an impact on the future of the world."
+
+#MINORS

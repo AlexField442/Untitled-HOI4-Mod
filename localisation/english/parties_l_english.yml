@@ -1357,6 +1357,9 @@
  RKT_fascism_party: "NSDAP"
  RKT_fascism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
 
+ RAJ_forward_bloc_party_name: "FB"
+ RAJ_forward_bloc_party_name_long: "Forward Bloc"
+ 
  RKM_fascism_party: "NSDAP"
  RKM_fascism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
 
@@ -1408,6 +1411,74 @@
  RAA_fascism_party: "NSDAP"
  RAA_fascism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
 
+ BRM_fascism_party: "Mon"
+ BRM_fascism_party_long: "Mon Dynasty"
+ BRM_communism_party: "BSPP"
+ BRM_communism_party_long: "Burma Socialist Programme Party"
+ BRM_democratic_party: "Thakins"
+ BRM_democratic_party_long: "The Dobama Asiayone"
+ BRM_neutrality_party: "Konbuang"
+ BRM_neutrality_party_long: "Konbuang Dynasty"
+
+ KUW_fascism_party: "Hashd"
+ KUW_fascism_party_long: "Popular Action Bloc"
+ KUW_communism_party: "KPM"
+ KUW_communism_party_long: "Kuwaiti Progressive Movement"
+ KUW_democratic_party: "NDA"
+ KUW_democratic_party_long: "Al-Tehalef Al-Watani Al-Demokrati"
+ KUW_neutrality_party: "Al-Sabah"
+ KUW_neutrality_party_long: "The House of Sabah"
+
+ RAJ_fascism_party_hindu_nationalism: "ABHM"
+ RAJ_fascism_party_hindu_nationalism_long: "All-India Hindu Grand Assembly"
+ PER_communism_iran_party: "Iran Party"
+ PER_communism_iran_party_long: "Iran Party"
+
+ PER_sumka_party: "SUMKA"
+ PER_sumka_party_long: "Iranian National Socialist Workers Party"
+
+ PER_provisional_government: "Provisional Government"
+ PER_provisional_government_long: "The Provisional Government"
+
+ PER_upp: "UPP"
+ PER_upp_long: "United Progressive Parties"
+
+ PER_ultra_nationalists: "Nationalists"
+ PER_ultra_nationalists_long: "Ultra-Nationalist Movement"
+
+ RAJ_eic_party_long: "East India Company JSC"
+ RAJ_eic_party: "EIC"
+
+ ASY_communism_party: "ASP"
+ ASY_communism_party_long: "Assyrian Socialist Party"
+ ASY_fascism_party: "BM"
+ ASY_fascism_party_long: "Babylon Movement"
+ ASY_democratic_party: "Zowaa"
+ ASY_democratic_party_long: "Assyrian Democratic Movement"
+ ASY_neutrality_party: "ACOE"
+ ASY_neutrality_party_long: "Assyrian Church of the East"
+
+ BHR_communism_party: "NLF-B"
+ BHR_communism_party_long: "Jabhat al-Tahrir al-Wathani - al-Bahrain"
+ BHR_fascism_party: "Islamic Society"
+ BHR_fascism_party_long: "Islamic National Tribune"
+ BHR_democratic_party: "HAB"
+ BHR_democratic_party_long: "Harakat Ahrar al-Bahrayn"
+ BHR_neutrality_party: "Al-Khalīfah"
+ BHR_neutrality_party_long: "the House of Khalifa"
+
+ IMO_communism_party: "PFLO"
+ IMO_communism_party_long: "al-Jabha as-Sa'biyya li-Tahrīr 'Umān"
+ IMO_fascism_party: "IRF"
+ IMO_fascism_party_long: "Imperial Revivalist Front"
+ IMO_democratic_party: "ETO"
+ IMO_democratic_party_long: "Elective Theocratic Organization"
+ IMO_neutrality_party: "Elective Imamate"
+ IMO_neutrality_party_long: "Ibadi Imamate Supporters"
+
+ PER_islamic_rep_party: "Islamic Council"
+ PER_islamic_rep_party_long: "Council of the Islamic Revolution"
+ 
  #EGYPT
  EGY_communism_party: "ECP"
  EGY_communism_party_long: "Egyptian Communist Party"

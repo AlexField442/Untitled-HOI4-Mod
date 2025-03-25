@@ -63,8 +63,15 @@ if = {
 	}
 	give_guarantee = BEL
 }
-
-load_oob = "ENG_Motorized"
+if = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	give_guarantee = IRQ
+	IRQ = {
+		give_military_access = ENG
+	}
+}
 
 set_research_slots = 4
 
@@ -191,6 +198,16 @@ if = {
 	}
 }
 
+IF = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	load_oob = "ENG_LAR_Motorized"
+	ELSE = {
+		load_oob = "ENG_Motorized"
+	}
+}
+
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
@@ -211,7 +228,16 @@ if = {
 		}
 	}
 	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
 		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = OMA
 		autonomous_state = autonomy_colony
 		freedom_level = 0.35
 	}
@@ -236,31 +262,49 @@ if = {
 		freedom_level = 0.2
 	}
 	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.8
+		target = BRM
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
 	}
 	set_autonomy = {
 		target = EGY
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
+		freedom_level = 0.2
 	}
 	set_autonomy = {
-		target = SYE
-		autonomous_state = autonomy_colony
-		freedom_level = 0.1
+		target = PAL
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.5
 	}
 	set_autonomy = {
-		target = ZIM
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
+		target = JOR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = KUW
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.5
+	}
+#	set_autonomy = {
+#		target = ZIM
+#		autonomous_state = autonomy_colony
+#		freedom_level = 0.4
+#	}
+	set_autonomy = {
+		target = IRE
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.7
+	}
+
 	else = {
-		puppet = EGY
 		puppet = MAL
 		puppet = RAJ
-		puppet = SYE
-		puppet = ZIM
+		puppet = JOR
+		puppet = PAL
+		#puppet = EGY
+		puppet = KUW
+		puppet = OMA
 	}
 }
 
@@ -272,6 +316,10 @@ if = {
 }
 
 1939.1.1 = {
+	set_autonomy = {
+		target = IRE
+		autonomous_state = autonomy_free
+	}
 
 	add_political_power = 1198
 	add_command_power = 100
@@ -626,6 +674,13 @@ recruit_character = ENG_john_cockcroft
 recruit_character = ENG_charles_goodeve
 recruit_character = ENG_nevil_shute
 recruit_character = ENG_robert_watson_watt
+
+if = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	recruit_character = ENG_jack_churchill 
+}
 
 
 

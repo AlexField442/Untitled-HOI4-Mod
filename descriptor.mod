@@ -11,4 +11,4 @@ tags={
 	"Technologies"
 }
 name="Untitled Hearts of Iron 4 Mod"
-supported_version="1.15.4"
+supported_version="1.16.1"

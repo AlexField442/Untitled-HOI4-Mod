@@ -1,0 +1,41 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# Nazi Germany
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = nazi_flag
+						option = CENSORED
+					}
+				}
+				GER = {
+					set_cosmetic_tag = GER_censored
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = nazi_flag
+						option = IMPERIAL
+					}
+				}
+				GER = {
+					set_cosmetic_tag = GER_imperial
+				}
+			}
+			# Imperial Japan
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = imjap_flag
+						option = WAR
+					}
+				}
+				JAP = {
+					set_cosmetic_tag = JAP_WAR
+				}
+			}
+		}
+	}
+}
